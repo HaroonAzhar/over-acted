@@ -1,10 +1,12 @@
-var Main = React.createClass({
-  render() {
-    return (
-      <div>
-        <Header />
-        <Body />
-      </div>
-    );
-  }
+
+
+ class Main extends React.Component({
+    render() {
+        return (
+            <div>
+                <Header />
+                <Body />
+            </div>
+        )
+    }
 });
